@@ -1,0 +1,24 @@
+* {
+    margin:0; /*margim inicial quando fica prafora externa*/
+    padding:0; /*reponsavel por adicionar espaço dentro da caixa*/
+}
+
+
+
+
+.titulo {
+    color:aquamarine
+}
+#titulo{
+    background-color: rgb(255, 0, 242);
+} 
+
+.paragrafo1{
+    color:brown;
+}
+
+.artigo .artigo-principal .paragrafo1{
+    color:cornflowerblue;
+}
+ /*ele sempre pegara a ultima cor ;nao sendo a primeira ,uma dica dar um cntr+f e procurar o nome da classe pra ver si ja esta criada ,por que si classe ja esta criada e so editar;assim evitar o erro de efeito cascata do css.*/
+
